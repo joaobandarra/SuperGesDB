@@ -11,9 +11,8 @@ namespace ProjetoFinalSuperGes.Models
     {
 
         [Key]
-        public int IDProduto { set; get; }
-        [Key]
-        public int IDEncomenda { set; get; }
+        public int IDEncomendaProduto { get; set; }
+
 
         [Required]
         [StringLength(20)]

@@ -11,9 +11,8 @@ namespace ProjetoFinalSuperGes.Models
     {
 
         [Key]
-        public int IDCarrinho { get; set; }
-        [Key]
-        public int IDProduto { get; set; }
+        public int IDCarrinhoProduto { get; set; }
+       
 
         // criar a chave forasteira
         // relaciona o objeto CarrinhoCompras com um objeto CarrinhoComprasProduto
